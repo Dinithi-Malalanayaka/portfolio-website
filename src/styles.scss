@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+html, body{
+    background-color: #DDD0C8;
+    font-family: "Trirong", serif;
+    height: 100vh;
+    margin-top: 0px;
+    display: flex;
+}
+
+.section{
+    height: 91vh;    
+    width: 87vw;
+    padding-top: 60px;
+    padding-left: 65px;
+}
