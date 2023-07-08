@@ -1,0 +1,63 @@
+.experience{
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    margin-left: 3vw;
+}
+
+.description{
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.horizontal-bar{
+    height: 5px;
+    width: 3rem;
+    content: '';
+    background: #323232;
+    left: 50%;
+    border-radius: 5px;
+}
+
+.content{
+    display: flex;
+    width: 60vw;
+    margin-left: 15vw;
+    margin-top: 4vh;
+}
+
+.side-bar{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.work-description{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    margin-left: 5vw;
+}
+
+.company-name{
+    height: 35px;
+    border: none;
+    background-color: #DDD0C8;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "Trirong", serif;
+    padding-left: 15px;
+    border-left: #dbc4b5 solid 3px;
+}
+
+.active-link{
+    border-left: #323232 solid 3px;
+}
+
+.heading{
+    margin-bottom: 5px;
+}

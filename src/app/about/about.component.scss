@@ -1,0 +1,57 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    margin-left: 3vw;
+}
+
+.description{
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.horizontal-bar{
+    height: 5px;
+    width: 3rem;
+    content: '';
+    background: #323232;
+    left: 50%;
+    border-radius: 5px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.about-me{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.my-skills{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 40px;
+    border-radius: 25px;
+    background-color: #dbc4b5;
+    margin: 5px;
+}
