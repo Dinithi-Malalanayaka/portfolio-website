@@ -14,18 +14,6 @@ export class ExperienceComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.workExperience = [
-      {jobTitle: "Intern - Artificial Inteligence", company:"OrelIT", duration: "December 2020 - August 2021", workItems: [
-        "Developed and styled interactive web applications for Apple Music using Ember and SCSS",
-        "Built and shipped the Apple Music Extension for Facebook Messenger leveraging third-party and internal API integrations",
-        "Built and delivered technical solutions according to stakeholder business requirements"
-      ]},
-      {jobTitle: "Software Engineer", company:"Nagarro", duration: "Octomber 2021 - Present", workItems: [
-        "Developed and styled interactive web applications for Apple Music using Ember and SCSS",
-        "Built and shipped the Apple Music Extension for Facebook Messenger leveraging third-party and internal API integrations",
-        "Built and delivered technical solutions according to stakeholder business requirements"
-      ]},
-    ]
   }
 
   showWorkExperience(company: string){

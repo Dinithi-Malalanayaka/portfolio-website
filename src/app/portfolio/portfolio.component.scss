@@ -1,0 +1,31 @@
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    margin-left: 3vw;
+}
+
+.description{
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.horizontal-bar{
+    height: 5px;
+    width: 3rem;
+    content: '';
+    background: #323232;
+    left: 50%;
+    border-radius: 5px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 70vw;
+    margin-left: 8vw;
+    margin-top: 4vh;
+}
